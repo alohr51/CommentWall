@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Andrew Lohr">
+	<meta name="description" content="Comment Wall!">
+	<title>25 year Scrapbook</title>
+	<link rel="stylesheet" href="foundation-5.5.2/css/foundation.css" />
+	<script src="foundation-5.5.2/js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="javascripts/client.js"></script>
+	<link rel="stylesheet" href="stylesheets/style.css" />
+</head>
+<body>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="panel">
+				<h1>IBM 25 Year Scrapbook</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-3 columns ">
+			<div class="panel">
+				<img src="images/ibm25.png"/>
+				<h4>Congratulations!</h4>
+				<div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
+					<section class="section">
+						<h5 class="title">
+							<span data-firstname="Oliver" data-lastname="Queen" class="user" >Oliver Queen</span>
+						</h5>
+					</section>
+
+					<section class="section">
+						<h5 class="title">
+							<span data-firstname="Paul" data-lastname="Rudd" class="user">Paul Rudd</span>
+						</h5>
+					</section>
+					<!--Add more names here! -->
+				</div>
+
+			</div>
+		</div>
+
+		<div class="large-6 columns">
+			<div class="row">
+				<div id='titleName'></div>
+				<div id='commentArea' class="large-10 columns">
+
+				</div>
+			</div>
+
+		</div>
+
+		<aside class="large-3 columns">
+			<div class="large-12 columns">
+				<div id='infoBox'>&nbsp;</div>
+				<textarea id='commentText' rows='12' placeholder="Add A Comment"></textarea>
+				<input id='from' placeholder='From'></input>
+				<input type="hidden" id="addCommentNames" />
+				<button id='commentButton' onClick='addComment()'>Send</button>
+			</div>
+
+		</aside>
+
+	</div>
+
+	<footer class="row">
+		<div class="large-12 columns">
+			<hr/>
+			<div class="row">
+				<div class="large-5 columns">
+					<p>IBM 25 Year Scrapbook.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

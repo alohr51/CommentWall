@@ -1,0 +1,6 @@
+---
+name: commentWall
+memory: 512M
+instances: 1
+host: commentWall
+domain: mybluemix.net
